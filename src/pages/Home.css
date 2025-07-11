@@ -1,0 +1,40 @@
+html {
+    background-color: #F0EDEE;
+}
+
+.home {
+    height: 100vh;
+    background-color: #F0EDEE;
+}
+
+
+.home-panel {
+    background-color: #E54F6D;
+    color: white;
+    position: relative;
+    margin-bottom: 2rem;
+    height: 92vh;
+}
+
+.home-panel p {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    max-width: 500px;
+    text-align: left;
+}
+
+.fallingTextContainer {
+    height: 40vh;
+
+}
+
+.section-1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
