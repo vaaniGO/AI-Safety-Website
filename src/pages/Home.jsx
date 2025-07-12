@@ -5,7 +5,12 @@ import './Home.css';
 import FallingText from '../components/FallingText';
 import MagnetLines from '../components/MagnetLines';
 import Navbar from '../components/Navbar';
+import { FaArrowDown } from 'react-icons/fa'; // Example: Font Awesome right arrow
+// CREDIT
+// Component inspired from Can Tastemel's original work for the lambda.ai landing page
+// https://cantastemel.com
 
+import Cubes from '../components/Cubes'
 
 function Home() {
     useEffect(() => {
@@ -23,14 +28,17 @@ function Home() {
                     lineColor="rgba(255, 255, 255, 0.3)"
                     lineWidth="1px"
                     lineHeight="20px"
-                    baseAngle={0}
+                    baseAngle={-45}
                     style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0 }}
                 />
                 <p>
-                    A RIGOROUS RESEARCH AND DISCUSSION GROUP FOCUSING ON THE BROADEST SENSE OF WHAT IT MEANS TO HAVE GOOD AI
+                    A group of undergraduate students working to maximise benefit and minimise harm caused by advanced AI systems.
                 </p>
             </div>
 
+            <div class="buffer">
+                <FaArrowDown ></FaArrowDown>
+            </div>
             <div class="section-1">
                 <FallingText
                     text={`AI around us can break easily.`}

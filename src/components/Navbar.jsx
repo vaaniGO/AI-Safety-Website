@@ -8,7 +8,7 @@ function Navbar() {
             <h1 className="logo">AI Safety | An Ashoka Students' Initiative</h1>
             <div className="nav-links">
                 <Link to="/">Home</Link>
-                <Link to="/">Research</Link>
+                <Link to="/pages/Research">Research</Link>
             </div>
         </nav>
     );

@@ -37,7 +37,7 @@ const FallingText = ({
             // Add 1 second delay for auto trigger
             const timer = setTimeout(() => {
                 setEffectStarted(true);
-            }, 1500);
+            }, 2500);
 
             return () => clearTimeout(timer);
         }

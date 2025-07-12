@@ -1,30 +1,30 @@
 html {
-    background-color: #F0EDEE;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
 }
 
 .home {
     height: 100vh;
-    background-color: #F0EDEE;
 }
 
 
 .home-panel {
-    background-color: #E54F6D;
     color: white;
     position: relative;
     margin-bottom: 2rem;
     height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-panel p {
     position: absolute;
-    bottom: 1rem;
-    left: 1rem;
     font-weight: bold;
-    text-transform: uppercase;
     font-size: 1.2rem;
     max-width: 500px;
-    text-align: left;
+    text-align: center;
+    opacity: 0.9;
+
 }
 
 .fallingTextContainer {
@@ -32,8 +32,17 @@ html {
 
 }
 
+.buffer {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    opacity: 0.9;
+}
+
 .section-1 {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
