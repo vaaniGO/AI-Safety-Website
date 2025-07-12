@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
 import 'aos/dist/aos.css';
 import './Research.css';
 import MagnetLines from '../components/MagnetLines';
 import Navbar from '../components/Navbar';
-import { FaArrowRight, FaBookOpen, FaCalendar, FaChartLine, FaClock, FaPen, FaReadme, FaResearchgate, FaUsers } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 import { FaPenClip } from 'react-icons/fa6';
 
 // 1. Define your tag-to-color mapping here
@@ -81,27 +82,29 @@ function Research() {
                     </div>
                 </div>
 
-                <div className="research-section" data-aos="fade-up" data-aos-delay="200">
-                    <div className="article-info">
-                        <FaPenClip />
-                        <div className="date">
-                            11th July, 2025
+                <Link to="/blog/ai-makes-developers-spend-more-time" className="research-section-link">
+                    <div className="research-section" data-aos="fade-up" data-aos-delay="200" >
+                        <div className="article-info">
+                            <FaPenClip />
+                            <div className="date">
+                                11th July, 2025
+                            </div>
+                        </div>
+                        {/* Use the new Tag component here as well */}
+                        <div className="tag-container">
+                            <Tag>AI Harm</Tag>
+                            <Tag>AI & Cognition</Tag>
+                        </div>
+                        <h2>AI makes developers spend more time instead of less</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                        <div className="read-more">
+                            <FaArrowRight />
+                            <span>Read more</span>
                         </div>
                     </div>
-                    {/* Use the new Tag component here as well */}
-                    <div className="tag-container">
-                        <Tag>AI Harm</Tag>
-                        <Tag>AI & Cognition</Tag>
-                    </div>
-                    <h2>AI makes developers spend more time instead of less</h2>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <div className="read-more">
-                        <FaArrowRight />
-                        <span>Read more</span>
-                    </div>
-                </div>
+                </Link>
             </div>
         </div>
     );
