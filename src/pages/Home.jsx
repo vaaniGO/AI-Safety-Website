@@ -5,6 +5,7 @@ import './Home.css';
 import FallingText from '../components/FallingText';
 import MagnetLines from '../components/MagnetLines';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import { FaArrowDown } from 'react-icons/fa'; // Example: Font Awesome right arrow
 // CREDIT
 // Component inspired from Can Tastemel's original work for the lambda.ai landing page
@@ -52,6 +53,7 @@ function Home() {
                     mouseConstraintStiffness={0.9}
                 />
             </div>
+            <Footer />
         </div>
     );
 }

@@ -45,10 +45,10 @@
 
 .research-content {
     padding: 4rem 2rem;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
 }
 
@@ -79,6 +79,7 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 600;
+    color: #F4F3EE;
 }
 
 .research-section p {
@@ -98,6 +99,8 @@
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
+    max-width: inherit;
+    flex-wrap: wrap;
 }
 
 .tag {

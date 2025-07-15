@@ -5,10 +5,13 @@ import './Navbar.css';
 function Navbar() {
     return (
         <nav className="navbar">
-            <h1 className="logo">AI Safety | An Ashoka Students' Initiative</h1>
+            <h1 className="logo">
+                <img src={require('./logo.png')} alt="AI Safety Logo" className="logo-image" />
+                AI Safety | An Ashoka Students' Initiative</h1>
             <div className="nav-links">
                 <Link to="/">Home</Link>
                 <Link to="/pages/Research">Research</Link>
+                <Link to="/">Podcast</Link>
             </div>
         </nav>
     );

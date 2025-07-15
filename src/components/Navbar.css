@@ -18,6 +18,11 @@ h1 {
     font-weight: normal;
 }
 
+.logo-image {
+    height: 40px;
+    width: auto;
+}
+
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;

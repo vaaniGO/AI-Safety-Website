@@ -61,19 +61,15 @@ function Research() {
             </div>
 
             <div className="research-content">
+
                 <div className="research-section" data-aos="fade-up">
-                    <div className="article-info">
-                        <FaPenClip />
-                        <div className="date">
-                            11th July, 2025
-                        </div>
-                    </div>
                     {/* 3. Use the new Tag component instead of divs */}
-                    <div className="tag-container">
-                        <Tag>AI Policy</Tag>
-                        <Tag>Open AI</Tag>
-                    </div>
-                    <h2>California Senator decides not to hold developers accountable</h2>
+                    {/* <div className="tag-container">
+                        <Tag>AI Governance</Tag>
+                        <Tag>AI Law</Tag>
+                        <Tag>International Agreements</Tag>
+                    </div> */}
+                    <h2>AI Policy</h2>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <div className="read-more">
@@ -82,29 +78,34 @@ function Research() {
                     </div>
                 </div>
 
-                <Link to="/blog/ai-makes-developers-spend-more-time" className="research-section-link">
-                    <div className="research-section" data-aos="fade-up" data-aos-delay="200" >
-                        <div className="article-info">
-                            <FaPenClip />
-                            <div className="date">
-                                11th July, 2025
-                            </div>
-                        </div>
-                        {/* Use the new Tag component here as well */}
-                        <div className="tag-container">
-                            <Tag>AI Harm</Tag>
-                            <Tag>AI & Cognition</Tag>
-                        </div>
-                        <h2>AI makes developers spend more time instead of less</h2>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-                        <div className="read-more">
-                            <FaArrowRight />
-                            <span>Read more</span>
-                        </div>
+                <div className="research-section" data-aos="fade-up">
+                    <h2>Economics of AI</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div className="read-more">
+                        <FaArrowRight />
+                        <span>Read more</span>
                     </div>
-                </Link>
+                </div>
+                <div className="research-section" data-aos="fade-up">
+                    <h2>AI Safety & Security</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div className="read-more">
+                        <FaArrowRight />
+                        <span>Read more</span>
+                    </div>
+                </div>
+                <div className="research-section" data-aos="fade-up">
+                    <h2>AI Philosophy</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div className="read-more">
+                        <FaArrowRight />
+                        <span>Read more</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     );
