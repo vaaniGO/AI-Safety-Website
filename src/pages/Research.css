@@ -24,17 +24,6 @@
     padding: 0 2rem;
 }
 
-.research-header h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    background: linear-gradient(45deg, #ffffff, #cccccc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-align: center;
-}
-
 .research-header p {
     opacity: 0.9;
     margin: 0;
@@ -130,20 +119,19 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .research-header h1 {
-        font-size: 2.5rem;
-    }
 
     .research-header p {
-        font-size: 1.2rem;
-    }
-
-    .research-content {
-        padding: 2rem 1rem;
-        gap: 2rem;
+        max-width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .research-section {
         padding: 1.5rem;
+    }
+
+    .research-content {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
