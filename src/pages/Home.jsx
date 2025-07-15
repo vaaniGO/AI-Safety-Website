@@ -6,7 +6,6 @@ import FallingText from '../components/FallingText';
 import MagnetLines from '../components/MagnetLines';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { FaArrowDown } from 'react-icons/fa'; // Example: Font Awesome right arrow
 // CREDIT
 // Component inspired from Can Tastemel's original work for the lambda.ai landing page
 // https://cantastemel.com
@@ -32,26 +31,9 @@ function Home() {
                     baseAngle={-45}
                     style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0 }}
                 />
-                <p>
+                <p data-aos="fade-up">
                     A group of undergraduate students working to maximise benefit and minimise harm caused by advanced AI systems.
                 </p>
-            </div>
-
-            <div class="buffer">
-                <FaArrowDown ></FaArrowDown>
-            </div>
-            <div class="section-1">
-                <FallingText
-                    text={`AI around us can break easily.`}
-                    highlightWords={["AI", "break", "easily"]}
-                    highlightClass="highlighted"
-                    trigger="auto"
-                    backgroundColor="transparent"
-                    wireframes={false}
-                    gravity={0.56}
-                    fontSize="2rem"
-                    mouseConstraintStiffness={0.9}
-                />
             </div>
             <Footer />
         </div>

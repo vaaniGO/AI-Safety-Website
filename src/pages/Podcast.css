@@ -1,0 +1,37 @@
+.podcast-panel {
+    color: #F4F3EE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.podcast-header {
+    text-align: center;
+    z-index: 10;
+    max-width: 800px;
+    padding: 0 2rem;
+}
+
+.podcast-header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, #ffffff, #cccccc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+
+.podcast-header p {
+    opacity: 0.9;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    max-width: 500px;
+    text-align: center;
+}

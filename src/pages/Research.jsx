@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import './Research.css';
 import MagnetLines from '../components/MagnetLines';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import { FaArrowRight } from 'react-icons/fa';
 import { FaPenClip } from 'react-icons/fa6';
 
@@ -55,7 +56,7 @@ function Research() {
                 />
                 <div className="research-header" data-aos="fade-up">
                     <p>
-                        Exploring the frontiers of AI safety through rigorous research and collaboration.
+                        We conduct mini-experiments, research and analysis in a rigorous and collaborative manner.
                     </p>
                 </div>
             </div>
@@ -107,6 +108,7 @@ function Research() {
                 </div>
 
             </div>
+            <Footer />
         </div>
     );
 }

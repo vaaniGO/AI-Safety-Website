@@ -2,7 +2,8 @@
 .research {
     min-height: 100vh;
     background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
-    color: white;
+    color: #F4F3EE;
+    color: #F4F3EE;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -56,16 +57,17 @@
     border-radius: 12px;
     padding: 2rem;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all 0.3s ease;
+    border: 0.5px solid;
+    border-color: #f4f3ee82;
     display: flex;
     gap: 1rem;
     flex-direction: column;
+    transition: all 0.3s ease-in-out;
 }
 
 .research-section:hover {
-    transform: translateY(-5px);
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: #fb6b7b;
+    transition: all 0.3s ease-in-out;
 }
 
 .research-icon {
@@ -117,6 +119,13 @@
     padding: 0.5rem;
     border-radius: 0.5rem;
     font-size: 0.8rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    background-color: #fb6b7b;
+    cursor: pointer;
+    transform: translate(10px, 0px);
 }
 
 /* Responsive design */

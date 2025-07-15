@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    color: #F4F3EE;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
@@ -11,21 +12,39 @@
     color: white;
     margin-left: 1rem;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    padding: 0.5rem;
+    border: 0.5px solid #F4F3EE;
+    border-radius: 0.5rem;
 }
 
-h1 {
+.nav-links a:hover {
+    background-color: #fb6b7b;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h1 {
     font-size: 1rem;
     font-weight: normal;
+    margin-left: none;
 }
 
 .logo-image {
     height: 40px;
     width: auto;
+    margin-right: 20px;
 }
 
 @media (max-width: 600px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
+    }
+
+    .logo h1 {
+        display: none;
     }
 }

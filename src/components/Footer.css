@@ -1,13 +1,17 @@
 .footer {
+    color: #F4F3EE;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #F4F3EE;
     padding: 1rem 2rem;
     height: 5vh;
 }
 
 h1 {
-    color: #F4F3EE;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: none;
 }
 
 .emails h1 {
