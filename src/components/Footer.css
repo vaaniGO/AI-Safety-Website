@@ -14,6 +14,10 @@ h1 {
     margin-left: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .emails h1 {
     text-align: right;
     font-size: 0.8rem;

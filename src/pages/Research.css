@@ -55,7 +55,7 @@
 }
 
 .research-section:hover {
-    border-color: #fb6b7b;
+    border-color: #FF672F;
     transition: all 0.3s ease-in-out;
 }
 
@@ -112,10 +112,45 @@
 }
 
 .read-more:hover {
-    background-color: #fb6b7b;
+    background-color: #FF672F;
     cursor: pointer;
     transform: translate(10px, 0px);
 }
+
+.arrow-container {
+    margin-top: 50px;
+}
+
+.recents {
+    height: auto;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.recent-item {
+    background-color: #FF672F;
+    opacity: 0.2;
+    height: 40px;
+    border-radius: 7px;
+    padding: 10px;
+    text-wrap: nowrap;
+    width: 25%;
+    flex: 1;
+}
+
+.recents p {
+    flex: 1;
+    align-self: last baseline;
+}
+
 
 /* Responsive design */
 @media (max-width: 768px) {

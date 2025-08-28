@@ -6,7 +6,7 @@ import './Research.css';
 import MagnetLines from '../components/MagnetLines';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowDown, FaArrowRight } from 'react-icons/fa';
 import { FaPenClip } from 'react-icons/fa6';
 
 // 1. Define your tag-to-color mapping here
@@ -58,10 +58,37 @@ function Research() {
                     <p>
                         We conduct mini-experiments, research and analysis in a rigorous and collaborative manner.
                     </p>
+                    <div className="arrow-container">
+                        <FaArrowDown />
+                    </div>
                 </div>
             </div>
 
+            {/* <div className="recents">
+                <p>Recents</p>
+                <div className="recent-item">
+                    <Link to="/research/ai-policy/ai-governance">
+                    </Link>
+                </div>
+                <div className="recent-item">
+                    <Link to="/research/ai-policy/ai-governance">
+                    </Link>
+                </div>
+                <div className="recent-item">
+                    <Link to="/research/ai-policy/ai-governance">
+                    </Link>
+                </div>
+                <div className="recent-item">
+                    <Link to="/research/ai-policy/ai-governance">
+                    </Link>
+                </div>
+                <div className="recent-item">
+                    <Link to="/research/ai-policy/ai-governance">
+                    </Link>
+                </div>
+            </div> */}
             <div className="research-content">
+
 
                 <div className="research-section" data-aos="fade-up">
                     {/* 3. Use the new Tag component instead of divs */}
@@ -72,7 +99,8 @@ function Research() {
                     </div> */}
                     <h2>AI Policy</h2>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        Explroing how governments and institutions are responding to the challenges and opportunities presnted by AI.
+                    </p>
                     <div className="read-more">
                         <FaArrowRight />
                         <span>Read more</span>
@@ -82,7 +110,8 @@ function Research() {
                 <div className="research-section" data-aos="fade-up">
                     <h2>Economics of AI</h2>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        Studying the economics behind building powerful models and how their economic impact is situated in the global market.
+                    </p>
                     <div className="read-more">
                         <FaArrowRight />
                         <span>Read more</span>
@@ -91,7 +120,7 @@ function Research() {
                 <div className="research-section" data-aos="fade-up">
                     <h2>AI Safety & Security</h2>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        Analysing principles like robustness, correctness, accuracy and alignment in the context of technical security, safety and privacy.</p>
                     <div className="read-more">
                         <FaArrowRight />
                         <span>Read more</span>
@@ -100,7 +129,8 @@ function Research() {
                 <div className="research-section" data-aos="fade-up">
                     <h2>AI Philosophy</h2>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        Examining the ethics, metaphysics and core values behind Articial Intelligence.
+                    </p>
                     <div className="read-more">
                         <FaArrowRight />
                         <span>Read more</span>
